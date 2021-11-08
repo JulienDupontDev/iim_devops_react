@@ -9,7 +9,7 @@ script:
 
 deploy:
   provider: heroku
-  api-key: 
+  api_key: 
     secure: $HEROKU_KEY
   app: $HEROKU_APP
   on: 
