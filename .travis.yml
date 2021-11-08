@@ -6,10 +6,10 @@ cache:
     - node_modules
 script:
   - yarn test --watchAll=false
-on:
-  branch: main
+
 deploy:
-  branch: main
   provider: heroku
   api_key: $HEROKU_KEY
   app: $HEROKU_APP
+  on:
+    branch: main
