@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/JulienDupontDev/iim_devops_react.svg?branch=main)](https://app.travis-ci.com/JulienDupontDev/iim_devops_react)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
