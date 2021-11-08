@@ -7,7 +7,7 @@ cache:
 script:
   - yarn test --watchAll=false
 on:
-  branch: master
+  branch: main
 deploy:
   provider: heroku
   api_key: $HEROKU_KEY
